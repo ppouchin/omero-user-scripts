@@ -210,7 +210,7 @@ def runAsScript():
     you can choose the channel colors manually.
     """, 
     
-    scripts.String(PARAM_DATATYPE, optional=False, grouping="1.1",
+    scripts.String(PARAM_DATATYPE, optional=False, grouping="1",
         description="The data you want to work with.", values=dataTypes, 
         default="Image"),
 
